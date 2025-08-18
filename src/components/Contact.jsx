@@ -188,7 +188,7 @@ export default function Contact() {
           position: absolute;
           inset: -2px;
           border-radius: 50%;
-          background: linear-gradient(45deg, var(--primary), var(--secondary));
+          background: linear-gradient(120deg, var(--secondary), var(--primary));
           opacity: 0.3;
           animation: pulse 2s infinite;
         }
