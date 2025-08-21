@@ -1949,7 +1949,7 @@ html {
 }
 
 .mobile-nav-links li:hover {
-    background: rgba(0, 245, 255, 0.08);
+    background: rgb(0, 0, 0);
     border-color: rgba(0, 245, 255, 0.2);
     transform: translateX(3px);
     box-shadow: 0 3px 12px rgba(0, 245, 255, 0.2);
@@ -1972,8 +1972,8 @@ html {
 }
 
 .mobile-nav-links a:hover {
-    color: var(--primary);
-    text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+    color: black;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .mobile-nav-links a.active {
