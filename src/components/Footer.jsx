@@ -141,27 +141,63 @@ export default function Footer() {
           gap: 60px;
           margin-bottom: 60px;
         }
+          .footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px 0;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: 900;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(0, 245, 255, 0.3);
+  margin: 0;
+  padding: 0;
+}
+
+.footer-tagline {
+  margin: 0 !important;
+  padding: 0;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+}
 
         .footer-brand {
           max-width: 400px;
         }
 
         .footer-logo {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-          margin-bottom: 20px;
-        }
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px 0;
+}
 
         .logo-text {
-          font-size: 30px;
-          font-weight: 900;
-          background: linear-gradient(45deg, var(--primary), var(--secondary));
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          text-shadow: 0 0 30px rgba(0, 245, 255, 0.3);
-        }
+  font-size: 30px;
+  font-weight: 900;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(0, 245, 255, 0.3);
+  margin: 0;
+  padding: 0;
+}
 
         .logo-dot {
           width: 12px;
@@ -172,12 +208,14 @@ export default function Footer() {
           animation: pulse 2s infinite;
         }
 
-        .footer-tagline {
-          color: var(--text-secondary);
-          font-size: 16px;
-          line-height: 1.6;
-          font-weight: 300;
-        }
+     .footer-tagline {
+  margin: 0 !important;
+  padding: 0;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+}
 
         .footer-links h4,
         .footer-social-section h4 {
@@ -434,8 +472,10 @@ export default function Footer() {
           }
 
           .footer-brand {
-            max-width: 100%;
-          }
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
 
           .footer-nav {
             flex-direction: row;

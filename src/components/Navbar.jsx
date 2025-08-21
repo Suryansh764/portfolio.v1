@@ -102,10 +102,12 @@ export default function Navbar() {
         </button>
 
 
-        <div className={`mobile-nav ${isMenuOpen ? 'active' : ''}`}>
-          <ul className="mobile-nav-links">
+        <div className={`mobile-nav ${isMenuOpen ? 'active' : ''}`} style={{padding: "0px  0px   0px 20px"}}>
+          <div className="mobile-nav-container" style={{background: "linear-gradient(45deg, var(--primary), var(--secondary))"}} >
+            <ul className="mobile-nav-links" >
             <li>
               <Link 
+                style={{ color: "white" }}
                 to="home" 
                 spy={true} 
                 smooth={true} 
@@ -119,6 +121,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link 
+               style={{ color: "white" }}
                 to="about" 
                 spy={true} 
                 smooth={true} 
@@ -132,6 +135,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link 
+               style={{ color: "white" }}
                 to="skills" 
                 spy={true} 
                 smooth={true} 
@@ -145,6 +149,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link 
+               style={{ color: "white" }}
                 to="projects" 
                 spy={true} 
                 smooth={true} 
@@ -158,6 +163,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link 
+               style={{ color: "white" }}
                 to="contact" 
                 spy={true} 
                 smooth={true} 
@@ -170,6 +176,8 @@ export default function Navbar() {
             </Link>
             </li>
           </ul>
+          </div>
+          
         </div>
 
 

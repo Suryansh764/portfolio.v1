@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="hero-buttons">
                 <a href="#projects" className="btn btn-primary" style={{ borderRadius: "100px", padding: "16px 16px" }}>
                     <i className="fas fa-rocket me-1"></i>
-                    View Portfolio
+                    View Projects
                 </a>
                 <a 
                     href="https://drive.google.com/file/d/1zP0EfBHcqLt_RwwLvdDo9aL5oS04a3QN/view?usp=sharing" 
