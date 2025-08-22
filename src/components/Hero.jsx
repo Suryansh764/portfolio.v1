@@ -16,7 +16,7 @@ export default function Hero() {
                     View Projects
                 </a>
                 <a 
-                    href="https://drive.google.com/file/d/1oWSdj00-mxdwkwAIR3CmfPv_QCKlA0yc/view?usp=sharing" 
+                    href="https://drive.google.com/file/d/1g5uOveIqPrWmE5o5Y9Bt-EG1fHbojR8d/view?usp=sharing" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-secondary" 
