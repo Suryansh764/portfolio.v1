@@ -18,12 +18,12 @@ const PROJECTS = [
     repo: "https://github.com/Suryansh764/ecommerce-frontend",
   },
   {
-    title: "Mitra",
-    desc: "An intuitive CRM system designed for lead management with pipeline visualization, automated follow-ups, and detailed analytics.",
+    title: "Meetup",
+    desc: "A social web app for creating, discovering, and joining meetups, featuring real-time event management, secure user authentication, and a responsive, interactive UI. p.s. This is a work in progress & valuable MVP",
     img: "https://fastly.picsum.photos/id/911/600/400.jpg?hmac=oQrY_NxZMPraprOrHDBCc3ppsgoEyy3k5oWrPsOb_3w",
-    tech: ["React Native", "GraphQL", "PostgreSQL", "Chart.js"],
-    link: "#home",
-    repo: "https://github.com/you/portfolio",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    link: "https://meetup-frontend-pink.vercel.app/",
+    repo: "https://github.com/Suryansh764/meetup-frontend-",
   },
 ];
 
